@@ -61,6 +61,11 @@ flag generatemanpage
   manual:      True
   description: Build the tool for generating the man page
 
+flag with_xinerama
+  default:     False
+  manual:      True
+  description: Build the tool for generating the man page
+
 library
   exposed-modules: XMonad
                    XMonad.Config
